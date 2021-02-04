@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLogin">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30sp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Please Enter Your Email"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawableTint="@color/darkPurple"
+            android:drawablePadding="10sp"
+            android:width="300sp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Please Enter Your Password"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableTint="@color/darkPurple"
+            android:drawablePadding="10sp"
+            android:layout_marginTop="10sp"
+            android:width="300sp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/lightPurple"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/newAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70sp"
+            android:width="150sp"
+            android:background="@drawable/new_account_button"
+            android:text="New Account"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_gravity="bottom"
+                android:background="@color/darkPurple"
+                android:text="Log in"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

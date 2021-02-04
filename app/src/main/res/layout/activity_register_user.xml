@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUserActivity"
+    android:background="@color/softPink">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/backBtn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+               android:drawableTint="@color/lightPurple"
+               tools:layout_editor_absoluteX="24dp"
+               tools:layout_editor_absoluteY="85dp"
+               android:layout_marginLeft="20sp"
+               android:layout_marginTop="30sp"/>
+
+           <TextView
+               android:id="@+id/textView9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center
+"
+               android:text="iReport"
+               android:textColor="@color/darkPurple"
+               android:textSize="30sp"
+               tools:layout_editor_absoluteX="167dp"
+               tools:layout_editor_absoluteY="86dp" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:background="@color/white"
+               android:layout_margin="30sp">
+
+               <TextView
+                   android:id="@+id/textView10"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Create A New Account"
+                   android:textColor="@color/darkPurple"
+                   android:textSize="20sp"
+                   android:layout_gravity="center"
+                   tools:layout_editor_absoluteX="169dp"
+                   tools:layout_editor_absoluteY="168dp"
+                   android:layout_marginTop="20sp"/>
+
+               <EditText
+                   android:id="@+id/editTextTextPersonName4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:inputType="textPersonName"
+                   android:hint="Full Name"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20sp"
+                   tools:layout_editor_absoluteX="90dp"
+                   tools:layout_editor_absoluteY="237dp" />
+
+               <EditText
+                   android:id="@+id/editTextTextPersonName5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:inputType="textPersonName"
+                   android:hint="Email"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20sp"
+                   tools:layout_editor_absoluteX="88dp"
+                   tools:layout_editor_absoluteY="301dp" />
+
+               <EditText
+                   android:id="@+id/editTextTextPersonName6"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:inputType="textPersonName"
+                   android:hint="Birth Date"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20sp"
+                   tools:layout_editor_absoluteX="88dp"
+                   tools:layout_editor_absoluteY="360dp" />
+
+               <EditText
+                   android:id="@+id/editTextTextPersonName7"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:inputType="textPersonName"
+                   android:hint="Adress"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20sp"
+                   tools:layout_editor_absoluteX="90dp"
+                   tools:layout_editor_absoluteY="419dp" />
+
+               <EditText
+                   android:id="@+id/editTextTextPersonName8"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:inputType="textPersonName"
+                   android:hint="Password"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20sp"
+                   tools:layout_editor_absoluteX="91dp"
+                   tools:layout_editor_absoluteY="478dp" />
+
+               <EditText
+                   android:id="@+id/editTextTextPersonName9"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:inputType="textPersonName"
+                   android:hint="Confirm Password"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20sp"
+                   tools:layout_editor_absoluteX="91dp"
+                   tools:layout_editor_absoluteY="537dp" />
+
+               <TextView
+                   android:id="@+id/textView11"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/termsAndCondotions"
+                   android:textAlignment="center"
+                   android:maxWidth="200sp"
+                   android:layout_marginTop="30sp"
+                   android:layout_marginBottom="20sp"
+                   android:textColor="@color/darkPurple"
+                   android:layout_gravity="center"
+                   tools:layout_editor_absoluteX="166dp"
+                   tools:layout_editor_absoluteY="609dp" />
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <Button
+                   android:id="@+id/continueBtn"
+                   android:layout_width="match_parent"
+                   android:layout_height="74dp"
+                   android:layout_gravity="bottom"
+                   android:text="Continue"
+                   android:textSize="20sp"
+                   android:textColor="@color/white"
+                   android:background="@color/darkPurple"/>
+           </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

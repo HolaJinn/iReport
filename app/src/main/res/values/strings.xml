@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">iReport</string>
+    <string name="login">Log In</string>
+    <string name="loginText">You want to login as user or as administrator?</string>
+    <string name="termsAndCondotions">By creating an account you agree to our
+Terms of Service and Privacy Policy</string>
+</resources>
